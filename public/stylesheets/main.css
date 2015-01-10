@@ -1,0 +1,37 @@
+html, body
+{
+    margin: 0;
+}
+
+div.board
+{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin: 5px;
+    width: 625px;
+}
+
+div.cell
+{
+    width: 23px;
+    height: 23px;
+
+    -moz-box-flex: 1;
+
+    border: 1px solid #cfcfcf;
+}
+
+div.cell:hover
+{
+    background-color: #cfc;
+}
+
+div.game
+{
+    display: flex;
+
+    width: 1270px;
+}
